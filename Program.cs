@@ -77,7 +77,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors(
     builder =>
         builder
-            .WithOrigins("http://localhost:4200", "http://localhost:3000")
+            .WithOrigins("http://localhost:4200", "http://localhost:3000", "https://upper-lip-holstery.vercel.app")
             .AllowAnyHeader()
             .AllowAnyMethod()
 );
