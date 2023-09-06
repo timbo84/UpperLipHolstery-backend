@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'upperLipApi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7B287F5A92148229D4A121CF7E03C1C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_207E5FD808754942BD7FDBC14F3FAFFC }}
           package: .
